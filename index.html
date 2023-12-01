@@ -117,7 +117,18 @@
             height: 25px;
             font-size: x-small;
         }
-
+        .call-button2 {
+            margin-top: 5px; /* Add spacing between buttons */
+            padding: 5px 10px;
+            background-color:orange;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 90px;
+            height: 25px;
+            font-size: x-small;
+        }
         p {
             color: gray;
             font-size: x-small;
@@ -154,7 +165,7 @@
             </div>
             <div class="contact-buttons">
                 <button class="call-button" onclick="callNumber('apm_land')"> Call LandLine</button>
-                <button onclick="openEmailApp_one()">Send Email</button>
+                <button class="call-button2" onclick="openEmailApp_one()">Send Email</button>
             </div>
             <script>
                 function callNumber(number, isMobile = false) {
